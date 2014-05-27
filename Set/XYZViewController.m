@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad
 {
+//    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"clouds"]];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
