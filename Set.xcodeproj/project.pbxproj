@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47C5885A19364B5500BFF563 /* White-Background-Xtra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47C5885419364B5500BFF563 /* White-Background-Xtra.jpg */; };
+		47C5885B19364B5500BFF563 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 47C5885519364B5500BFF563 /* images.jpeg */; };
+		47C5885C19364B5500BFF563 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C5885619364B5500BFF563 /* home.png */; };
+		47C5885D19364B5500BFF563 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C5885719364B5500BFF563 /* unchecked.png */; };
+		47C5885E19364B5500BFF563 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C5885819364B5500BFF563 /* checked.png */; };
+		47C5885F19364B5500BFF563 /* blueplaid.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C5885919364B5500BFF563 /* blueplaid.jpg.png */; };
 		47C75B5F192FAB0B00995809 /* SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75B5C192FAB0B00995809 /* SetCardDeck.m */; };
 		47C75B60192FAB0B00995809 /* SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75B5E192FAB0B00995809 /* SetCard.m */; };
 		47C75B63192FAB6A00995809 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75B62192FAB6A00995809 /* SettingsViewController.m */; };
@@ -43,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47C5885419364B5500BFF563 /* White-Background-Xtra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "White-Background-Xtra.jpg"; sourceTree = "<group>"; };
+		47C5885519364B5500BFF563 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		47C5885619364B5500BFF563 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		47C5885719364B5500BFF563 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		47C5885819364B5500BFF563 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		47C5885919364B5500BFF563 /* blueplaid.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueplaid.jpg.png; sourceTree = "<group>"; };
 		47C75B5B192FAB0B00995809 /* SetCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCardDeck.h; path = "../../../Documents/iPhone apps/CardGame/CardGame/SetCardDeck.h"; sourceTree = "<group>"; };
 		47C75B5C192FAB0B00995809 /* SetCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCardDeck.m; path = "../../../Documents/iPhone apps/CardGame/CardGame/SetCardDeck.m"; sourceTree = "<group>"; };
 		47C75B5D192FAB0B00995809 /* SetCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCard.h; path = "../../../Documents/iPhone apps/CardGame/SetCard.h"; sourceTree = "<group>"; };
@@ -185,6 +197,12 @@
 		B84181E7191D460F00FBC95A /* Set Photos */ = {
 			isa = PBXGroup;
 			children = (
+				47C5885419364B5500BFF563 /* White-Background-Xtra.jpg */,
+				47C5885519364B5500BFF563 /* images.jpeg */,
+				47C5885619364B5500BFF563 /* home.png */,
+				47C5885719364B5500BFF563 /* unchecked.png */,
+				47C5885819364B5500BFF563 /* checked.png */,
+				47C5885919364B5500BFF563 /* blueplaid.jpg.png */,
 			);
 			name = "Set Photos";
 			sourceTree = "<group>";
@@ -299,10 +317,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C5885A19364B5500BFF563 /* White-Background-Xtra.jpg in Resources */,
 				8D4279A418EC6C8C00844EA6 /* Images.xcassets in Resources */,
 				8D42799618EC6C8C00844EA6 /* InfoPlist.strings in Resources */,
+				47C5885B19364B5500BFF563 /* images.jpeg in Resources */,
+				47C5885C19364B5500BFF563 /* home.png in Resources */,
+				47C5885E19364B5500BFF563 /* checked.png in Resources */,
 				47C75BA81932D4D000995809 /* VBColorPicker-Info.plist in Resources */,
+				47C5885F19364B5500BFF563 /* blueplaid.jpg.png in Resources */,
 				8D42799F18EC6C8C00844EA6 /* Main.storyboard in Resources */,
+				47C5885D19364B5500BFF563 /* unchecked.png in Resources */,
 				47C75B9A1931A3FB00995809 /* defaults.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
