@@ -7,16 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47C58853193647E700BFF563 /* White-Background-Xtra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47C58852193647E700BFF563 /* White-Background-Xtra.jpg */; };
 		47C75B5F192FAB0B00995809 /* SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75B5C192FAB0B00995809 /* SetCardDeck.m */; };
 		47C75B60192FAB0B00995809 /* SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75B5E192FAB0B00995809 /* SetCard.m */; };
 		47C75B63192FAB6A00995809 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75B62192FAB6A00995809 /* SettingsViewController.m */; };
-		47C75B78192FAD0B00995809 /* blueplaid.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C75B65192FAD0B00995809 /* blueplaid.jpg.png */; };
-		47C75B79192FAD0B00995809 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C75B66192FAD0B00995809 /* checked.png */; };
-		47C75B89192FAD0B00995809 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C75B76192FAD0B00995809 /* unchecked.png */; };
-		47C75B9819319E3900995809 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C75B9719319E3900995809 /* home.png */; };
 		47C75B9A1931A3FB00995809 /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C75B991931A3FB00995809 /* defaults.plist */; };
-		47C75BA61932D4D000995809 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 47C75B9D1932D4D000995809 /* images.jpeg */; };
 		47C75BA81932D4D000995809 /* VBColorPicker-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C75BA01932D4D000995809 /* VBColorPicker-Info.plist */; };
 		47C75BA91932D4D000995809 /* VBColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75BA21932D4D000995809 /* VBColorPicker.m */; };
 		47C75BAA1932D4D000995809 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75BA41932D4D000995809 /* ColorPickerViewController.m */; };
@@ -49,20 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		47C58852193647E700BFF563 /* White-Background-Xtra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "White-Background-Xtra.jpg"; path = "../photos-2/White-Background-Xtra.jpg"; sourceTree = "<group>"; };
 		47C75B5B192FAB0B00995809 /* SetCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCardDeck.h; path = "../../../Documents/iPhone apps/CardGame/CardGame/SetCardDeck.h"; sourceTree = "<group>"; };
 		47C75B5C192FAB0B00995809 /* SetCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCardDeck.m; path = "../../../Documents/iPhone apps/CardGame/CardGame/SetCardDeck.m"; sourceTree = "<group>"; };
 		47C75B5D192FAB0B00995809 /* SetCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCard.h; path = "../../../Documents/iPhone apps/CardGame/SetCard.h"; sourceTree = "<group>"; };
 		47C75B5E192FAB0B00995809 /* SetCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCard.m; path = "../../../Documents/iPhone apps/CardGame/SetCard.m"; sourceTree = "<group>"; };
 		47C75B61192FAB6A00995809 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = "../../../Documents/iPhone apps/CardGame/CardGame/SettingsViewController.h"; sourceTree = "<group>"; };
 		47C75B62192FAB6A00995809 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = "../../../Documents/iPhone apps/CardGame/CardGame/SettingsViewController.m"; sourceTree = "<group>"; };
-		47C75B65192FAD0B00995809 /* blueplaid.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueplaid.jpg.png; path = "../photos-2/blueplaid.jpg.png"; sourceTree = "<group>"; };
-		47C75B66192FAD0B00995809 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = "../photos-2/checked.png"; sourceTree = "<group>"; };
-		47C75B76192FAD0B00995809 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = "../photos-2/unchecked.png"; sourceTree = "<group>"; };
-		47C75B9719319E3900995809 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = "../photos-2/home.png"; sourceTree = "<group>"; };
 		47C75B991931A3FB00995809 /* defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = defaults.plist; path = "../../../Documents/iPhone apps/CardGame/CardGame/defaults.plist"; sourceTree = "<group>"; };
 		47C75B9B1931AF7400995809 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
-		47C75B9D1932D4D000995809 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = "../photos-2/images.jpeg"; sourceTree = "<group>"; };
 		47C75B9F1932D4D000995809 /* VBColorPicker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VBColorPicker-Prefix.pch"; path = "../../../Documents/iPhone apps/CardGame/CardGame/VBColorPicker-Prefix.pch"; sourceTree = "<group>"; };
 		47C75BA01932D4D000995809 /* VBColorPicker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "VBColorPicker-Info.plist"; path = "../../../Documents/iPhone apps/CardGame/CardGame/VBColorPicker-Info.plist"; sourceTree = "<group>"; };
 		47C75BA11932D4D000995809 /* VBColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBColorPicker.h; path = "../../../Documents/iPhone apps/CardGame/CardGame/VBColorPicker.h"; sourceTree = "<group>"; };
@@ -150,12 +138,6 @@
 		8D42799118EC6C8C00844EA6 /* Set */ = {
 			isa = PBXGroup;
 			children = (
-				47C58852193647E700BFF563 /* White-Background-Xtra.jpg */,
-				47C75B9D1932D4D000995809 /* images.jpeg */,
-				47C75B65192FAD0B00995809 /* blueplaid.jpg.png */,
-				47C75B66192FAD0B00995809 /* checked.png */,
-				47C75B9719319E3900995809 /* home.png */,
-				47C75B76192FAD0B00995809 /* unchecked.png */,
 				B8670FF5191979930003DC44 /* Model */,
 				B84181E7191D460F00FBC95A /* Set Photos */,
 				8D42799D18EC6C8C00844EA6 /* Main.storyboard */,
@@ -318,16 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D4279A418EC6C8C00844EA6 /* Images.xcassets in Resources */,
-				47C75BA61932D4D000995809 /* images.jpeg in Resources */,
 				8D42799618EC6C8C00844EA6 /* InfoPlist.strings in Resources */,
-				47C58853193647E700BFF563 /* White-Background-Xtra.jpg in Resources */,
 				47C75BA81932D4D000995809 /* VBColorPicker-Info.plist in Resources */,
 				8D42799F18EC6C8C00844EA6 /* Main.storyboard in Resources */,
-				47C75B89192FAD0B00995809 /* unchecked.png in Resources */,
 				47C75B9A1931A3FB00995809 /* defaults.plist in Resources */,
-				47C75B78192FAD0B00995809 /* blueplaid.jpg.png in Resources */,
-				47C75B79192FAD0B00995809 /* checked.png in Resources */,
-				47C75B9819319E3900995809 /* home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
