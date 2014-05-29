@@ -41,6 +41,8 @@
 
 -(void)updateInstructions{
     [self.textField setText:[self.instructions objectAtIndex: [self.index integerValue]]];
+//    CGFloat size = 20;
+//    [self.textField setFont:[UIFont fontWithName:@"Courier Bold" size:size]];
 }
 
 
