@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4784AC551938F50800350A1A /* SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4784AC541938F50800350A1A /* SetCard.m */; };
+		4784AC581938F7A400350A1A /* SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4784AC571938F7A400350A1A /* SetCardDeck.m */; };
+		4784AC5B1938F86A00350A1A /* VBColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4784AC5A1938F86A00350A1A /* VBColorPicker.m */; };
 		47C5885A19364B5500BFF563 /* White-Background-Xtra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47C5885419364B5500BFF563 /* White-Background-Xtra.jpg */; };
 		47C5885B19364B5500BFF563 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 47C5885519364B5500BFF563 /* images.jpeg */; };
 		47C5885D19364B5500BFF563 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C5885719364B5500BFF563 /* unchecked.png */; };
@@ -16,12 +19,9 @@
 		47C5886419368A1D00BFF563 /* Screen Shot 2014-05-28 at 9.22.33 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C5886119368A1D00BFF563 /* Screen Shot 2014-05-28 at 9.22.33 AM.png */; };
 		47C5886519368A1D00BFF563 /* Screen Shot 2014-05-28 at 9.24.28 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C5886219368A1D00BFF563 /* Screen Shot 2014-05-28 at 9.24.28 AM.png */; };
 		47C5886719368DD800BFF563 /* home2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C5886619368DD800BFF563 /* home2.png */; };
-		47C75B5F192FAB0B00995809 /* SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75B5C192FAB0B00995809 /* SetCardDeck.m */; };
-		47C75B60192FAB0B00995809 /* SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75B5E192FAB0B00995809 /* SetCard.m */; };
 		47C75B63192FAB6A00995809 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75B62192FAB6A00995809 /* SettingsViewController.m */; };
 		47C75B9A1931A3FB00995809 /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C75B991931A3FB00995809 /* defaults.plist */; };
 		47C75BA81932D4D000995809 /* VBColorPicker-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C75BA01932D4D000995809 /* VBColorPicker-Info.plist */; };
-		47C75BA91932D4D000995809 /* VBColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75BA21932D4D000995809 /* VBColorPicker.m */; };
 		47C75BAA1932D4D000995809 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C75BA41932D4D000995809 /* ColorPickerViewController.m */; };
 		8D42798C18EC6C8C00844EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D42798B18EC6C8C00844EA6 /* Foundation.framework */; };
 		8D42798E18EC6C8C00844EA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D42798D18EC6C8C00844EA6 /* CoreGraphics.framework */; };
@@ -52,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4784AC531938F50800350A1A /* SetCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCard.h; sourceTree = "<group>"; };
+		4784AC541938F50800350A1A /* SetCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCard.m; sourceTree = "<group>"; };
+		4784AC561938F7A400350A1A /* SetCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCardDeck.h; sourceTree = SOURCE_ROOT; };
+		4784AC571938F7A400350A1A /* SetCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardDeck.m; sourceTree = SOURCE_ROOT; };
+		4784AC591938F86A00350A1A /* VBColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBColorPicker.h; sourceTree = "<group>"; };
+		4784AC5A1938F86A00350A1A /* VBColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBColorPicker.m; sourceTree = "<group>"; };
 		47C5885419364B5500BFF563 /* White-Background-Xtra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "White-Background-Xtra.jpg"; sourceTree = "<group>"; };
 		47C5885519364B5500BFF563 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		47C5885719364B5500BFF563 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
@@ -61,18 +67,12 @@
 		47C5886119368A1D00BFF563 /* Screen Shot 2014-05-28 at 9.22.33 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-05-28 at 9.22.33 AM.png"; sourceTree = "<group>"; };
 		47C5886219368A1D00BFF563 /* Screen Shot 2014-05-28 at 9.24.28 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-05-28 at 9.24.28 AM.png"; sourceTree = "<group>"; };
 		47C5886619368DD800BFF563 /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home2.png; sourceTree = "<group>"; };
-		47C75B5B192FAB0B00995809 /* SetCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCardDeck.h; path = "../../../Documents/iPhone apps/CardGame/CardGame/SetCardDeck.h"; sourceTree = "<group>"; };
-		47C75B5C192FAB0B00995809 /* SetCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCardDeck.m; path = "../../../Documents/iPhone apps/CardGame/CardGame/SetCardDeck.m"; sourceTree = "<group>"; };
-		47C75B5D192FAB0B00995809 /* SetCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCard.h; path = "../../../Documents/iPhone apps/CardGame/SetCard.h"; sourceTree = "<group>"; };
-		47C75B5E192FAB0B00995809 /* SetCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCard.m; path = "../../../Documents/iPhone apps/CardGame/SetCard.m"; sourceTree = "<group>"; };
 		47C75B61192FAB6A00995809 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = "../../../Documents/iPhone apps/CardGame/CardGame/SettingsViewController.h"; sourceTree = "<group>"; };
 		47C75B62192FAB6A00995809 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = "../../../Documents/iPhone apps/CardGame/CardGame/SettingsViewController.m"; sourceTree = "<group>"; };
 		47C75B991931A3FB00995809 /* defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = defaults.plist; path = "../../../Documents/iPhone apps/CardGame/CardGame/defaults.plist"; sourceTree = "<group>"; };
 		47C75B9B1931AF7400995809 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47C75B9F1932D4D000995809 /* VBColorPicker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VBColorPicker-Prefix.pch"; path = "../../../Documents/iPhone apps/CardGame/CardGame/VBColorPicker-Prefix.pch"; sourceTree = "<group>"; };
 		47C75BA01932D4D000995809 /* VBColorPicker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "VBColorPicker-Info.plist"; path = "../../../Documents/iPhone apps/CardGame/CardGame/VBColorPicker-Info.plist"; sourceTree = "<group>"; };
-		47C75BA11932D4D000995809 /* VBColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBColorPicker.h; path = "../../../Documents/iPhone apps/CardGame/CardGame/VBColorPicker.h"; sourceTree = "<group>"; };
-		47C75BA21932D4D000995809 /* VBColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VBColorPicker.m; path = "../../../Documents/iPhone apps/CardGame/CardGame/VBColorPicker.m"; sourceTree = "<group>"; };
 		47C75BA31932D4D000995809 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPickerViewController.h; path = "../../../Documents/iPhone apps/CardGame/CardGame/ColorPickerViewController.h"; sourceTree = "<group>"; };
 		47C75BA41932D4D000995809 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorPickerViewController.m; path = "../../../Documents/iPhone apps/CardGame/CardGame/ColorPickerViewController.m"; sourceTree = "<group>"; };
 		8D42798818EC6C8C00844EA6 /* Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,14 +219,14 @@
 		B8670FF5191979930003DC44 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				47C75B5B192FAB0B00995809 /* SetCardDeck.h */,
-				47C75B5C192FAB0B00995809 /* SetCardDeck.m */,
-				47C75B5D192FAB0B00995809 /* SetCard.h */,
-				47C75B5E192FAB0B00995809 /* SetCard.m */,
+				4784AC561938F7A400350A1A /* SetCardDeck.h */,
+				4784AC571938F7A400350A1A /* SetCardDeck.m */,
+				4784AC531938F50800350A1A /* SetCard.h */,
+				4784AC541938F50800350A1A /* SetCard.m */,
 				8D42799A18EC6C8C00844EA6 /* XYZAppDelegate.h */,
 				8D42799B18EC6C8C00844EA6 /* XYZAppDelegate.m */,
-				47C75BA11932D4D000995809 /* VBColorPicker.h */,
-				47C75BA21932D4D000995809 /* VBColorPicker.m */,
+				4784AC591938F86A00350A1A /* VBColorPicker.h */,
+				4784AC5A1938F86A00350A1A /* VBColorPicker.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -359,13 +359,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B84181EA191D483500FBC95A /* MainMenuViewController.m in Sources */,
-				47C75B60192FAB0B00995809 /* SetCard.m in Sources */,
+				4784AC5B1938F86A00350A1A /* VBColorPicker.m in Sources */,
 				8D42799C18EC6C8C00844EA6 /* XYZAppDelegate.m in Sources */,
 				8D42799818EC6C8C00844EA6 /* main.m in Sources */,
-				47C75B5F192FAB0B00995809 /* SetCardDeck.m in Sources */,
+				4784AC581938F7A400350A1A /* SetCardDeck.m in Sources */,
+				4784AC551938F50800350A1A /* SetCard.m in Sources */,
 				47C75B63192FAB6A00995809 /* SettingsViewController.m in Sources */,
 				47C75BAA1932D4D000995809 /* ColorPickerViewController.m in Sources */,
-				47C75BA91932D4D000995809 /* VBColorPicker.m in Sources */,
 				8D67F58E18F496EA00357359 /* XYZplayGame.m in Sources */,
 				8D96674D18F8652300A9ED5B /* XYZhowToPlay.m in Sources */,
 			);
