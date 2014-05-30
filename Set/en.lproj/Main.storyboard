@@ -833,8 +833,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Swm-0T-ZAC"/>
         <segue reference="xMd-md-3cT"/>
+        <segue reference="fzo-Hb-p5O"/>
         <segue reference="9lR-zZ-iIf"/>
     </inferredMetricsTieBreakers>
 </document>
